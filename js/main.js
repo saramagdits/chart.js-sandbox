@@ -19,7 +19,8 @@ const makeChart = (data) => {
 
     // The data for our dataset
     data: {
-      labels: [data[0][8], data[2][8]],
+      labels: data.map(i => i[8]),
+      // labels: [data[0][8], data[2][8]],
       // labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
       datasets: [{
         label: data[1][10],
