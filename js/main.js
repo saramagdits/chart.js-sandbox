@@ -27,13 +27,7 @@ const makeChart = (data) => {
         backgroundColor: 'rgb(255, 255, 255, 0)',
         borderColor: 'rgb(255, 99, 132)',
         data: data.map(i => i[10])
-      },
-        {
-          label: 'My Second dataset',
-          backgroundColor: 'rgb(255, 255, 255, 0)',
-          borderColor: 'rgb(0, 99, 255)',
-          data: [10, 2, 4, 2, 23, 5, 18]
-        }]
+      }]
     },
 
     // Configuration options go here
