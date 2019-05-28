@@ -22,7 +22,21 @@
   <![endif]-->
 
   <!--Begin Content-->
-  <h1>NCHS - Age-adjusted Death Rates for Influenza and Pneumonia</h1>
+  <h1>NCHS - Age-adjusted Death Rates for Selected Major Causes of Death</h1>
+
+  <!--Select Dropdown-->
+  <label for="cause">Cause of Death</label>
+  <select id="cause" name="cause">
+    <option value="" selected>Select</option>
+
+    <option value="Accidents">Accidents</option>
+    <option value="Stroke">Stroke</option>
+    <option value="Influenza and Pneumonia">Influenza and Pneumonia</option>
+    <option value="Cancer">Cancer</option>
+    <option value="Heart Disease">Heart Disease</option>
+
+  </select>
+
   <canvas id="myChart"></canvas>
 
 
