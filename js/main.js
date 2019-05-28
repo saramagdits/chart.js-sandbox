@@ -23,10 +23,10 @@ const makeChart = (data) => {
       // labels: [data[0][8], data[2][8]],
       // labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
       datasets: [{
-        label: data[1][10],
+        label: data[0][9],
         backgroundColor: 'rgb(255, 255, 255, 0)',
         borderColor: 'rgb(255, 99, 132)',
-        data: [0, 10, 5, 2, 20, 30, 45]
+        data: data.map(i => i[10])
       },
         {
           label: 'My Second dataset',
